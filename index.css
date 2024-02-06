@@ -1,0 +1,113 @@
+body {
+    overflow-x: hidden;
+    width: 750px;
+    margin: auto;
+}
+
+p {
+    white-space: nowrap;
+    font-size: 14px;
+}
+
+header h1 {
+    text-align: center;
+    height: 20px;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    height: 25px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.qualification-highlights h2 {
+    margin-bottom: 0px;
+    border-bottom: 1px solid black;
+}
+
+.qualification-highlights ul {
+    margin: 0px;
+}
+
+.technical-qualifications h2 {
+    border-bottom: 1px solid black;
+    margin-bottom: 0px;
+}
+
+.technical-qualifications h3 {
+    margin: 0px;
+}
+
+.technical-qualifications ul {
+    margin: 0px;
+}
+
+.education h2 {
+    margin-bottom: 0px;
+    border-bottom: 1px solid black;
+}
+
+.education .educations {
+    margin: 5px;
+}
+
+.education .education-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 30px;
+    width: 100%;
+}
+
+.education .education-info p  {
+    margin: 0px;
+    text-align: left;
+    width: 220px;
+}
+
+.projects h2 {
+    margin-bottom: 0px;
+    border-bottom: 1px solid black;
+}
+
+.projects p {
+    margin: 0px;
+}
+
+.projects ul {
+    margin: 5px;
+}
+
+.project-list {
+    margin-left: 30px;
+}
+
+.projects p.lewis-chess {
+    margin-top: 10px;
+}
+
+.experience h2 {
+    margin-bottom: 0px;
+    border-bottom: 1px solid black;
+}
+
+.experience .job-list {
+    margin-top: -20px;
+    margin-left: 30px;
+}
+
+.experience .job-list .job-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.experience .job-list .job-location {
+    margin-top: -20px;
+    margin-bottom: -15px;
+}
